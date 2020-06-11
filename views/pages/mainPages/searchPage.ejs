@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- import Duplicate elements of head tag (use bootstrap and w3 icon)-->
+    <%- include ("../../partials/headTag.ejs") -%> 
+    <link rel="stylesheet" href="../../../CSS/searchPage.css">
+    <title>SearchPage</title>
+</head>
+
+<body>
+    <div class="searchPageInfo">
+        <span>جست و جو برای :</span>
+        <span> <%= onvan %>  </span>
+    </div>
+
+    <div class="searchPageCards">
+        <!-- import cards -->
+        <% for(let i=0; i<productsArray.length; i++) { %>
+            <%- include ("../../partials/body-card.ejs", {productsArray: productsArray[i]} ) -%> 
+        <% } %>
+    </div>
+
+    <div class="buttons">
+        <a href="/home"> <button>بازگشت</button> </a>
+    </div>
+
+    <!-- import duplicate scripts (jquery and bootstrap) -->
+    <%- include ("../../partials/body-scripts.ejs") -%> 
+</body>
+
+</html>

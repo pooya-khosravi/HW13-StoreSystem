@@ -1,0 +1,26 @@
+<div class="cardParent lg-5 md-10 sm-12" id=" <%= productsArray.parentID  %>  ">
+    <div class="card sm-10 md-6" style="width: 18rem;">
+        <img src=" <%= productsArray.imageSRC  %>  " class="card-img-top" alt=" <%= productsArray.imageAlt  %>  ">
+        <div class="card-body">
+            <h5 class="card-title"> <%= productsArray.title %> </h5>
+            <div class="card-text">
+                <div>
+                    <span>رنگ: </span>
+                    <span class="color padding-R"> <%= productsArray.color  %>  </span>
+                </div>
+                <div>
+                    <span>سایز: </span>
+                    <span class="size padding-R"> <%= productsArray.size  %>  </span>
+                </div>
+                <div>
+                    <span>جنس: </span>
+                    <span class="material padding-R"> <%= productsArray.material  %>  </span>
+                </div>
+            </div>
+        </div>
+        <div class="buyPrice">
+            <a href=" <%= productsArray.pageHREF  %>  " class="btn btn-primary">خرید</a>
+            <span id="price">  <%= productsArray.price  %>   </span>
+        </div>
+    </div>
+</div>

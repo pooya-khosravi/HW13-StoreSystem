@@ -1,0 +1,189 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 0px) {
+
+    .card img {
+        height: 270px !important;
+    }
+
+    .sm-1 {width: 8.33%;}
+    .sm-2 {width: 16.66%;}
+    .sm-3 {width: 25%;}
+    .sm-4 {width: 33.33%;}
+    .sm-5 {width: 41.66%;}
+    .sm-6 {width: 50%;}
+    .sm-7 {width: 58.33%;}
+    .sm-8 {width: 66.66%;}
+    .sm-9 {width: 75%;}
+    .sm-10 {width: 83.33% !important;}
+    .sm-11 {width: 91.66%;}
+    .sm-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 600px) {
+
+    .card img {
+        height: 200px !important;
+    }
+
+    .md-1 {width: 8.33%;}
+    .md-2 {width: 16.66%;}
+    .md-3 {width: 25%;}
+    .md-4 {width: 33.33%;}
+    .md-5 {width: 41.66%;}
+    .md-6 {width: 50% !important;}
+    .md-7 {width: 58.33%;}
+    .md-8 {width: 66.66%;}
+    .md-9 {width: 75%;}
+    .md-10 {width: 83.33%;}
+    .md-11 {width: 91.66%;}
+    .md-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 1000px) {
+
+
+    .lg-1 {width: 8.33%;}
+    .lg-2 {width: 16.66%;}
+    .lg-3 {width: 25%;}
+    .lg-4 {width: 33.33%;}
+    .lg-5 {width: 41.66%;}
+    .lg-6 {width: 50%;}
+    .lg-7 {width: 58.33%;}
+    .lg-8 {width: 66.66%;}
+    .lg-9 {width: 75%;}
+    .lg-10 {width: 83.33%;}
+    .lg-11 {width: 91.66%;}
+    .lg-12 {width: 100%;}
+}
+
+body{
+    margin: 0px;
+}
+
+/* header links style */
+.navbar{
+    background-color: gray;
+}
+
+.navbar a:hover{
+    color: white !important;
+}
+
+.navbar-collapse{
+    direction: rtl;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: 0px !important;
+    direction: rtl;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav-link{
+    padding-right: 4px !important;
+}
+
+/* style for search bar */
+.searchParent{
+    width: 100;
+    height: 50px;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    width: 450px;
+    border-radius: 5px;
+    background-color: white;
+    height: 45px;
+    overflow: hidden;
+    direction: rtl;
+    display: flex;
+}
+
+.search .searchIcon{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.search .searchIcon:hover{
+    cursor: pointer;
+}
+
+.search .searchBox{
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 90%;
+}
+
+/* style for cards in home page */
+#productCardsPart{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#productCardsPart .cardParent{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.cardParent .card{
+    border: solid 1px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img{
+    height: 200px;
+}
+
+.cardParent .buyPrice{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buyPrice{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.buyPrice .btn{
+    width: 110px;
+    background-color: green;
+}
+
+.card-text{
+    margin-top: 15px;
+    text-align: right;
+    direction: rtl;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.padding-R{
+    padding-right: 40px;
+}

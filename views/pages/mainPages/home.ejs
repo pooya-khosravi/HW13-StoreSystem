@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- import Duplicate elements of head tag (use bootstrap and w3 icon)-->
+    <%- include ("../../partials/headTag.ejs") -%> 
+    <link rel="stylesheet" href="../../../CSS/mainPagesStyle/home.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!-- import header -->
+    <%- include ("../../partials/body-headerLinks.ejs") -%> 
+
+    <!-- search bar -->
+    <div class="searchParent">
+        <div class="search">
+            <div class="searchIcon"> <span class="fa fa-search"></span> </div>
+            <input class="searchBox" type="text" placeholder="جست و جو ....">
+        </div>
+    </div>
+
+    <div id="productCardsPart">
+        <!-- import cards -->
+        <% for(let i=0; i<productsArray.length; i++) { %>
+            <%- include ("../../partials/body-card.ejs", {productsArray: productsArray[i]} ) -%> 
+        <% } %>
+    </div>
+    
+    <!-- import duplicate scripts (jquery and bootstrap) -->
+    <%- include ("../../partials/body-scripts.ejs") -%> 
+    <!-- for use local js -->
+    <script src="../../../JS/mainPagesJS/home.js"></script>
+</body>
+
+</html>

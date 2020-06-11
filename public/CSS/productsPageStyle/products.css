@@ -1,0 +1,148 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 0px) {
+
+
+    .sm-1 {width: 8.33%;}
+    .sm-2 {width: 16.66%;}
+    .sm-3 {width: 25%;}
+    .sm-4 {width: 33.33%;}
+    .sm-5 {width: 41.66%;}
+    .sm-6 {width: 50%;}
+    .sm-7 {width: 58.33%;}
+    .sm-8 {width: 66.66%;}
+    .sm-9 {width: 75%;}
+    .sm-10 {width: 83.33%;}
+    .sm-11 {width: 91.66%;}
+    .sm-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 900px) {
+
+
+    .md-1 {width: 8.33%;}
+    .md-2 {width: 16.66%;}
+    .md-3 {width: 25%;}
+    .md-4 {width: 33.33%;}
+    .md-5 {width: 41.66%;}
+    .md-6 {width: 50%;}
+    .md-7 {width: 58.33%;}
+    .md-8 {width: 66.66%;}
+    .md-9 {width: 75%;}
+    .md-10 {width: 83.33%;}
+    .md-11 {width: 91.66%;}
+    .md-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 1100px) {
+
+
+    .lg-1 {width: 8.33%;}
+    .lg-2 {width: 16.66%;}
+    .lg-3 {width: 25%;}
+    .lg-4 {width: 33.33%;}
+    .lg-5 {width: 41.66%;}
+    .lg-6 {width: 50%;}
+    .lg-7 {width: 58.33%;}
+    .lg-8 {width: 66.66%;}
+    .lg-9 {width: 75%;}
+    .lg-10 {width: 83.33%;}
+    .lg-11 {width: 91.66%;}
+    .lg-12 {width: 100%;}
+}
+
+body{
+    margin: 0px;
+}
+
+.navbar{
+    background-color: gray;
+}
+
+.navbar a:hover{
+    color: white !important;
+}
+
+.navbar-collapse{
+    direction: rtl;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: 0px !important;
+    direction: rtl;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav-link{
+    padding-right: 4px !important;
+}
+
+/* style for bodyView */
+.imageParent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+img{
+    width: 600px;
+    height: 450px;
+    border: solid 2px gray;
+}
+
+.description{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: thistle;
+}
+
+.description h1{
+    text-align: center;
+    background-color: bisque;
+    height: 80px;
+}
+
+.description p{
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+}
+
+.priceParent{
+    width: 100%;
+    height: 80px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buttons{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    width: 200px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    background-color: aqua;
+}
+

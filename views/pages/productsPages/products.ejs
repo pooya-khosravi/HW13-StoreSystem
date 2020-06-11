@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- import Duplicate elements of head tag (use bootstrap and w3 icon)-->
+    <%- include ("../../partials/headTag.ejs") -%> 
+    <link rel="stylesheet" href="../../../CSS/productsPageStyle/products.css">
+    <title> <%= thisObj.pageTitle %>  </title>
+</head>
+
+<body>
+
+    <!-- import header -->
+    <%- include ("../../partials/body-headerLinks.ejs") -%> 
+
+    <div class="imageParent">
+        <img src=" <%= thisObj.imageSRC %>  " alt="Mahsoul">
+    </div>
+    
+    <div class="description">
+        <h1>توضیحات</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia sequi quod aut sed voluptatum corporis, natus consectetur harum quibusdam quisquam id. Mollitia, id maxime iusto quasi laboriosam corporis illum deleniti.
+        Debitis accusamus fuga illum vel placeat doloribus ex qui ipsa, aut aliquid quasi laborum quam ducimus, velit error dolores unde, amet accusantium tenetur aliquam? Nostrum libero quidem alias vel et.
+        Esse ea cum provident nemo officiis, natus expedita veritatis itaque doloremque quas dolores quaerat, amet corporis necessitatibus eligendi fugit voluptates iste quasi rerum et aliquam totam vitae! Sunt, saepe temporibus!
+        Voluptatibus delectus voluptate molestias nihil quam porro laudantium accusantium pariatur vitae sit ullam temporibus nostrum odio incidunt cupiditate repellendus, necessitatibus quidem officiis maxime quo. Odit illo minima id voluptates architecto!
+        Aut eius esse modi voluptatem nobis consectetur doloribus, accusamus quo! Expedita aspernatur, repudiandae eum doloremque aperiam velit sint nisi, earum ut vitae minus, tempora cumque atque veniam quisquam magni esse!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem alias aut, exercitationem deserunt nesciunt eveniet qui tenetur iusto dolore maxime distinctio itaque iure repudiandae reprehenderit molestias! Dicta, tenetur iste. Laborum.</p>
+    </div>
+    
+    <div class="priceParent">
+        <span>قیمت: </span>
+        <span id="price"> <%= thisObj.price %>  </span>
+    </div>
+    
+    <div class="buttons">
+        <a href="/home"> <button>بازگشت به صفحه اصلی</button> </a>
+        <a href="#"> <button>انتقال به درگاه بانکی</button> </a>
+    </div> 
+    
+    <!-- import duplicate scripts (jquery and bootstrap) -->
+    <%- include ("../../partials/body-scripts.ejs") -%> 
+    <!-- for use local js -->
+    <script src="../../../JS/productsPageJS/products.js"></script>
+</body>
+
+</html>

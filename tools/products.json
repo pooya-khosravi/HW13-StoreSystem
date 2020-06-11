@@ -1,0 +1,79 @@
+[
+    {
+        "parentID": "product1",
+        "imageSRC": "../../images/productsImage/kettle1.jpg",
+        "imageAlt": "aks1",
+        "color": "براق",
+        "size": "7لیتر",
+        "material": "استیل",
+        "price": "570000",
+        "pageHREF": "home/product1",
+        "title": "کتری قوری استیل 1",
+        "pageTitle": "mahsoule1"
+    },
+
+    {
+        "parentID": "product2",
+        "imageSRC": "../../images/productsImage/kettle2.jpg",
+        "imageAlt": "aks2",
+        "color": "مات",
+        "size": "7لیتر",
+        "material": "استیل",
+        "price": "590000",
+        "pageHREF": "home/product2",
+        "title": "کتری قوری تک دسته 2",
+        "pageTitle": "mahsoule2"
+    },
+
+    {
+        "parentID": "product2",
+        "imageSRC": "../../images/productsImage/kettle2.jpg",
+        "imageAlt": "aks2",
+        "color": "مات",
+        "size": "7لیتر",
+        "material": "استیل",
+        "price": "590000",
+        "pageHREF": "home/product2",
+        "title": "کتری قوری تک دسته 2",
+        "pageTitle": "mahsoule2"
+    },
+
+    {
+        "parentID": "product2",
+        "imageSRC": "../../images/productsImage/kettle2.jpg",
+        "imageAlt": "aks2",
+        "color": "مات",
+        "size": "7لیتر",
+        "material": "استیل",
+        "price": "590000",
+        "pageHREF": "home/product2",
+        "title": "کتری قوری تک دسته 2",
+        "pageTitle": "mahsoule2"
+    },
+
+    {
+        "parentID": "product2",
+        "imageSRC": "../../images/productsImage/kettle2.jpg",
+        "imageAlt": "aks2",
+        "color": "مات",
+        "size": "7لیتر",
+        "material": "استیل",
+        "price": "590000",
+        "pageHREF": "home/product2",
+        "title": "کتری قوری تک دسته 2",
+        "pageTitle": "mahsoule2"
+    },
+
+    {
+        "parentID": "product3",
+        "imageSRC": "../../images/productsImage/kettle3.jpg",
+        "imageAlt": "aks3",
+        "color": "مات و براق",
+        "size": "7لیتر",
+        "material": "استیل",
+        "price": "470000",
+        "pageHREF": "home/product3",
+        "title": "کتری مات استیل 3",
+        "pageTitle": "mahsoule3"
+    }
+]
